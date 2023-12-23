@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1700px;
+    max-height: fit-content;
+ 
+    margin: 0 auto;
+}
+
+.slider {
+    height: auto;
+}
+
+.instructions,
+.fees {
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgb(48, 37, 77);
+   /* color: #fff;*/
+    padding: 20px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact,
+.subscribe {
+    width: 30%;
+    
+}
+.links{
+    width: 30%;
+    text-decoration: white;
+    text-emphasis-color: red;
+  
+}
+
+
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe input {
+    margin-top: 10px;
+}
